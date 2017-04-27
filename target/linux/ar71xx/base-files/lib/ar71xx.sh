@@ -629,8 +629,16 @@ ar71xx_board_detect() {
 	*"GL-MIFI")
 		name="gl-mifi"
 		;;
+<<<<<<< HEAD
 	*"EnGenius EPG5000")
 		name="epg5000"
+=======
+	*"HiveAP-121")
+		name="hiveap-121"
+		;;
+	*"HiWiFi HC6361")
+		name="hiwifi-hc6361"
+>>>>>>> 10d1185... ar71xx: add support for Aerohive AP-121
 		;;
 	*"EnGenius ESR1750")
 		name="esr1750"
