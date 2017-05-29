@@ -39,6 +39,7 @@ ramips_setup_interfaces()
 		;;
 	linkits7688 | \
 	linkits7688d)
+		ucidef_set_interface_lan "eth0.1"
 		ucidef_add_switch "switch0" \
 			"0:lan" "1:lan" "6t@eth0"
 		;;
